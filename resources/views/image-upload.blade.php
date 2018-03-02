@@ -35,8 +35,10 @@
 					{{ csrf_field() }}
 					<div class="row">
 						<div class="col-md-12">
-							<input type="file" name="image" />
+							<input with="100%" type="file" name="image" />
 						</div>
+						<br>
+						<hr>
 						<div class="col-md-12">
 							<button type="submit" class="btn btn-success">Upload</button>
 						</div>
